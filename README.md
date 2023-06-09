@@ -4,7 +4,7 @@ Image(1)
 ## Introduction
 Data cleaning and preparation is one of the essential skills you should possess to be considered a skilled Analyst. Recently, A Challenge #DataCleaningChallenge was organized in the Data Community Twitter by Chinonso Promise and Victor Somadina, which aimed to provide an opportunity for every data enthusiast to build a portfolio-worthy project that can be shared with recruiters showcasing their data skill in data preparation and cleaning using any preferred tool such as Excel, Power-Query, SQL, Python, R.
 
-**_Disclaimer_**  The tool used for this challenge was Power-Query editor available in Microsoft Excel and Power BI.
+**_Disclaimer_**  The tool used for this challenge is Power-Query editor available in Microsoft Excel and Power BI.
 
 ## Task
 + The objective of this challenge is to prepare the data provided for the #DataCleaningChallenge and made it available for analysis by using ETL Approach
