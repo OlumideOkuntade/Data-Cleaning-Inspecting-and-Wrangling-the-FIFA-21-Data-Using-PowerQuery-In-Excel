@@ -26,9 +26,11 @@ image 1 image 2  image 3
 
  Conditional column called Agreement was created to categorize free, Loan and contract rows
  Image()
- Moving to the next columns Height & Weight, Height values contain feet & inches values, and Weight values are lbs
-
-
+ Moving to the next columns Height & Weight, Height values contain feet & inches values, and Weight values are lbs. I removed the(' & "") in the height column and replace with(. &  ) 
+Imabge()
+Then I converted feet and Inches to cm using the formular 1 feet = 30.48 cm  1 inch = 2.54 cm, then the two heights column were added together.
+Image()
+For the weights column, I used extract function to extract the first 2 numbers. 
 
 
 
