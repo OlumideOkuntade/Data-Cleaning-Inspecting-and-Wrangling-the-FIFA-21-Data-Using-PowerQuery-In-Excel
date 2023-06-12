@@ -53,8 +53,8 @@ For the weights column, I used extract function to extract the first 2 numbers.
 
 
 
-Conclusion
-Working on this #DataCleaningChallenge help me understand Power Query better. I learned how to modify and minimize applied steps using M Query for Query Optimization and easier transformation practice.Cleaning the FIFA 21 data was a bit challenging. Despite the challenges encountered, the messy dataset was transformed into a state that renders it ready for use in analysis.
+## Conclusion
+Working on this #DataCleaningChallenge help me understand Power Query better. I learned how to modify and minimize applied steps using M Query for Query Optimization and easier transformation practice.Cleaning the FIFA 21 data was a bit challenging, despite the challenges encountered, the messy dataset was transformed into a state that renders it ready for use in analysis.
 
 
 
