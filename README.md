@@ -42,7 +42,8 @@ What I did here was after the first step, I checked the query formula and repeat
 Image()    Image()
 Then I multiplied each column that contain M(Million) by 1000000  and K(Thousand) by 1000... This was done with just a single step.
 Image()
-
+The same process is applied to the W/F,SM and IR columns below. I used the function Text.Start to extract a value in the three columns simultaneously.
+Image()   Image()
 
 
 
