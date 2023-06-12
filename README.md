@@ -44,7 +44,7 @@ Moving to the next columns Height & Weight, Height values contain feet & inches 
 
 Then I converted feet and Inches to cm using the formular 1 feet = 30.48 cm and  1 inch = 2.54 cm, then the two heights column were added together.
  
- Height multiplication                                            Height column addition
+     Height column convertion to CM                             Height column addition
  
  ![](multiply_height.png)        |  ![](addition_height.png )
 :------------------------------: | :------------------------------:
