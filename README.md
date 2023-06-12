@@ -50,10 +50,10 @@ Then I converted feet and Inches to cm using the formular 1 feet = 30.48 cm and 
 :------------------------------: | :------------------------------:
 
 
-For the weights column, I used extract function to extract the first 2 numbers. 
+For the weights column, I used extract function to extract the first 3 numbers. 
 
-  ![](weight.png) |  ![](weight_cleaned .png)
-:---------------: | :--------------------------:
+  ![](weight_cleaned.png)  |  ![](weight.png)
+:------------------------: | :-----------------:
 
 
 
