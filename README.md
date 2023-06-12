@@ -27,7 +27,7 @@ I removed the first 3 columns ("PhtoUrl", "LongName", "PlayerUrl") as it’s not
 
 The 'Team & Contract' column had inconsistent values and the wrong data type. The column has 3 categories of values in the format, '23rd July 2020 on loan’, 'Free' and '2018 ~ 2024’ with spaces in between. I used Trim to remove the spaces, then split the column using column from examples(>> from  All Columns) of the Add column tab  then input the 2004 ~ 2021 and FC Barcelona in the new created column(Column 1)
   
-  ![](Trim_function.png) | ![](cleaning1.png)    |  ![](cleaning2.png) 
+ ![](inconsistent_data.PNG)  ![](Trim_function.png) | ![](cleaning1.png)    |  ![](cleaning2.png) 
   
   
  Conditional column called Agreement was created to categorize free, Loan and contract rows in the Team adn Contract column 
@@ -35,15 +35,26 @@ The 'Team & Contract' column had inconsistent values and the wrong data type. Th
  ![](Conditional_column.png)
  
  
-Moving to the next columns Height & Weight, Height values contain feet & inches values, and Weight values are lbs. I removed the(' & "") in the height column and replace with(. & 'space') 
+Moving to the next columns Height & Weight, Height values contain feet & inches values, and Weight values are lbs. I removed the(' & "") in the height column and replace with(. & 'space'), creating two heights column(Height 1 and Heigjt 2) for feet and inches.
 
-  ![](Height_weight_column.png)   | ![](split_height_column.png )
-:-------------------------------: |:------------------------------:
+    Height and Weight Column                           Splited Height Column                               
+
+  ![](Height_weight_column.png)   |  ![](split_height_column.png )
+:------------------------------:  | :------------------------------:
 
 Then I converted feet and Inches to cm using the formular 1 feet = 30.48 cm and  1 inch = 2.54 cm, then the two heights column were added together.
-Image()
+  
+ ![](multiply_height.png)        |  ![](addition_height.png )
+:------------------------------: | :------------------------------:
+
+
 For the weights column, I used extract function to extract the first 2 numbers. 
-Image()
+
+  ![](weight.png) |  ![](weight_cleaned .png)
+:---------------: | :--------------------------:
+
+
+
 Next I move to column BP, it contains an abbreviation of the player's best position, so I want to rename those abbreviations with their necessary word.
 Image()
 To achieve this, we use the Replace Value function, However that will require replacing each abbreviation which will take allot of time. So I created a list of variable(BPValues) containing the abbreviations with replace words, then I modify the replace value function(Record.FieldorDefault) to lookup into the list created.
