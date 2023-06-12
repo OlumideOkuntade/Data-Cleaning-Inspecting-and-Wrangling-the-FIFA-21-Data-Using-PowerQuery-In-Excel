@@ -46,22 +46,6 @@ The same process is applied to the W/F,SM and IR columns below. I used the funct
 Image()   Image()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Conclusion
 Working on this #DataCleaningChallenge help me understand Power Query better. I learned how to modify and minimize applied steps using M Query for Query Optimization and easier transformation practice.Cleaning the FIFA 21 data was a bit challenging, despite the challenges encountered, the messy dataset was transformed into a state that renders it ready for use in analysis.
 
