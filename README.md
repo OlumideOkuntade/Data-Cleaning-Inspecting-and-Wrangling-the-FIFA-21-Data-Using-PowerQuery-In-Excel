@@ -31,9 +31,17 @@ Imabge()
 Then I converted feet and Inches to cm using the formular 1 feet = 30.48 cm  1 inch = 2.54 cm, then the two heights column were added together.
 Image()
 For the weights column, I used extract function to extract the first 2 numbers. 
-
-
-
+Image()
+Next I move to column BP, it contains an abbreviation of the player's best position, so I want to rename those abbreviations with their necessary word.
+Image()
+To achieve this, we use the Replace Value function, However that will require replacing each abbreviation which will take allot of time. So I created a list of variable(BPValues) containing the abbreviations with replace words, then I modify the replace value function(Record.FieldorDefault) to lookup into the list created.
+Image ()    Image ()
+Value, Wage and Release clause column were cleaned using the previous approach only that I will only apply one step to the three columns without repeating the same process. What I used here is Extract by Text Between Function.
+     Image()     
+What I did here was after the first step, I checked the query formula and repeat the same process within the line for other columns you wish to transform. the 'type' means the data type of the column, so I change it to number in the next frame. Voila!! I removed the formatted value in the three columns with just one step. 
+Image()    Image()
+Then I multiplied each column that contain M(Million) by 1000000  and K(Thousand) by 1000... This was done with just a single step.
+Image()
 
 
 
