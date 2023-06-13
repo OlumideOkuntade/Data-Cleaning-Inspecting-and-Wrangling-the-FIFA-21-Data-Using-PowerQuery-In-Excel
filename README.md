@@ -71,10 +71,12 @@ The new 'BP' column contain the necessary words.
 
 
 'Value', 'Wage' and 'Release clause' column were cleaned using the previous approach only that I will only apply one step to the three columns without repeating the same process. What I used here is Extract by Text Between Function.
-     Image()     
+
+Image()   
+
 What I did here was after the first step, I checked the query formula and repeat the same process within the line for other columns you wish to transform. the 'type' means the data type of the column, so I change it to number in the next frame. Boom! I removed the formatted value in the three columns with just one step. 
 
-Image()    Image()
+![](result_value_wage_clause.PNG)
 
 Then I multiplied each column that contain M(Million) by 1000000  and K(Thousand) by 1000... This was done with just a single step.
 
