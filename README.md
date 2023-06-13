@@ -87,10 +87,9 @@ Then I multiplied each column that contain M(Million) by 1000000  and K(Thousand
 
 The same process is applied to the 'W/F', 'SM' and 'IR' columns below. I used the function Text.Start to extract a value in the three columns simultaneously.
 
+ ![](wf_extract.PNG)      
 
-  ![](wf_extract.PNG)       | ![](wf_extractionn.PNG) 
- :------------------------: |:------------------------:
-
+![](wf_extractionn.PNG) 
 
 ## Conclusion
 Working on this #DataCleaningChallenge help me understand Power Query better. I learned how to modify and minimize applied steps using M Query for Query Optimization and easier transformation practice.Cleaning the FIFA 21 data was a bit challenging, despite the challenges encountered, the messy dataset was transformed into a state that renders it ready for use in analysis.
