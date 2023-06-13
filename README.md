@@ -57,9 +57,15 @@ For the weights column, I used extract function to extract the first 3 numbers.
 
 
 Next I move to column BP, it contains an abbreviation of the player's best position, so I want to rename those abbreviations with their necessary word.
-Image()
-To achieve this, we use the Replace Value function, However that will require replacing each abbreviation which will take allot of time. So I created a list of variable(BPValues) containing the abbreviations with replace words, then I modify the replace value function(Record.FieldorDefault) to lookup into the list created.
-Image ()    Image ()
+
+![](BP_column.webp)
+
+To achieve this, we use the Replace Value function, However that will require replacing each abbreviation and that will take allot of time. So I created a list of variable(BPValues) containing the abbreviations with replace words, then I modify the replace value function with Record.FieldorDefault to lookup into the list created.
+ 
+   ![](created_listedvariable.PNG)   
+ 
+   ![](created_listreplacement.PNG)   |  ![](new_BP.PNG)   
+ 
 Value, Wage and Release clause column were cleaned using the previous approach only that I will only apply one step to the three columns without repeating the same process. What I used here is Extract by Text Between Function.
      Image()     
 What I did here was after the first step, I checked the query formula and repeat the same process within the line for other columns you wish to transform. the 'type' means the data type of the column, so I change it to number in the next frame. Voila!! I removed the formatted value in the three columns with just one step. 
