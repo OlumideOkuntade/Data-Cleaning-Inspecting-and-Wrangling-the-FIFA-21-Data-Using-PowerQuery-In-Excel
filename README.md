@@ -30,7 +30,7 @@ The 'Team & Contract' column had inconsistent values and the wrong data type. Th
  ![](inconsistent_data.PNG)  ![](Trim_function.png) | ![](cleaning1.png)    |  ![](cleaning2.png) 
   
   
- Conditional column called Agreement was created to categorize free, Loan and contract rows in the Team adn Contract column 
+ Conditional column called Agreement was created to categorize free, Loan and contract rows in the Team and Contract column 
 
  ![](Conditional_column.png)
  
@@ -44,7 +44,7 @@ Moving to the next columns Height & Weight, Height values contain feet & inches 
 
 Then I converted feet and Inches to cm using the formular 1 feet = 30.48 cm and  1 inch = 2.54 cm, then the two heights column were added together.
  
-     Height column convertion to CM                             Height column addition
+     Height column convertion to CM                            Height column addition
  
  ![](multiply_height.png)        |  ![](addition_height.png )
 :------------------------------: | :------------------------------:
@@ -54,7 +54,6 @@ For the weights column, I used extract function to extract the first 3 numbers.
 
   ![](weight_cleaned.png)  |  ![](weight.png)
 :------------------------: | :-----------------:
-
 
 
 Next I move to column BP, it contains an abbreviation of the player's best position, so I want to rename those abbreviations with their necessary word.
