@@ -1,4 +1,4 @@
-# Data-Cleaning Project-Inspecting-and-Wrangling-the-FIFA-21-Data-Using-PowerQuery-In-Excel
+# Data-Cleaning-Project-Inspecting-and-Wrangling-the-FIFA-21-Data-Using-PowerQuery-In-Excel
 ![](Introduction_picture.jpeg)
 
 ## Introduction
